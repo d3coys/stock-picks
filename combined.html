@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combined HTML Tasks</title>
+    <style>
+        .top-link {
+            display: block;
+            margin-top: 10px;
+        }
+        .bottom-link {
+            display: block;
+            margin-top: 800px;
+        }
+        .image {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Task 5: Link to jump to bottom of the page -->
+    <a href="#bottom" class="top-link">Jump to Bottom</a>
+
+    <!-- Task 6: Links to four different websites -->
+    <h2>Favorite Websites</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    </ul>
+
+    <!-- Task 7: Display five different images -->
+    <h2>My Favorite Images</h2>
+    <img src="image1.jpg" alt="Image 1" title="Image 1" class="image">
+    <br><br>
+    <img src="image2.jpg" alt="Image 2" title="Image 2" class="image">
+    <br><br>
+    <img src="image3.jpg" alt="Image 3" title="Image 3" class="image">
+    <br><br>
+    <img src="image4.jpg" alt="Image 4" title="Image 4" class="image">
+    <br><br>
+    <img src="image5.jpg" alt="Image 5" title="Image 5" class="image">
+
+    <!-- Task 8: Display an image with specific dimensions and border -->
+    <h2>Image with Border and Dimensions</h2>
+    <img src="CS2205Unit03WAImg01.jpg" alt="Bordered Image" width="200" height="200" border="2">
+
+    <!-- Task 9: Image that links to itself -->
+    <h2>Image Linking to Itself</h2>
+    <a href="image1.jpg">
+        <img src="image1.jpg" alt="Linking Image" width="200" height="200">
+    </a>
+
+    <!-- Task 10: Image that links to a search engine -->
+    <h2>Image Linking to Search Engine</h2>
+    <a href="https://www.google.com" target="_blank">
+        <img src="CS2205Unit03WAImg01.jpg" alt="Search Engine Image" width="200" height="200">
+    </a>
+
+    <!-- Task 5: Link to jump back to top of the page -->
+    <a id="bottom" href="#top" class="bottom-link">Jump to Top</a>
+</body>
+</html>
