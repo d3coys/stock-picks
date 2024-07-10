@@ -2,24 +2,160 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTML Tasks Index</title>
+    <title>HTML Exercises</title>
     <style>
-        ul {
-            list-style-type: none;
-        }
-        li {
-            margin-bottom: 10px;
-        }
+        .color-list li:nth-child(1) { color: red; }
+        .color-list li:nth-child(2) { color: orange; }
+        .color-list li:nth-child(3) { color: yellow; }
+        .color-list li:nth-child(4) { color: green; }
+        .color-list li:nth-child(5) { color: blue; }
+        .color-list li:nth-child(6) { color: indigo; }
+        .color-list li:nth-child(7) { color: violet; }
+        .color-list li:nth-child(8) { color: brown; }
+        .color-list li:nth-child(9) { color: pink; }
+        .color-list li:nth-child(10) { color: gray; }
     </style>
 </head>
 <body>
-    <h1>HTML Tasks</h1>
-    <ul>
-        <li><a href="numbers.html" target="_blank">Numbers 1-10 in Different Colors</a></li>
-        <li><a href="squares.html" target="_blank">Squares of Numbers 1-10</a></li>
-        <li><a href="lists.html" target="_blank">Ordered and Unordered Lists</a></li>
-        <li><a href="addresses.html" target="_blank">Envelope Format Addresses</a></li>
-        <li><a href="combined_tasks.html" target="_blank">Combined Tasks 5-10</a></li>
+
+    <!-- Task 1: Numbers 1 - 10 in different colors -->
+    <h2>Numbers 1 - 10 in different colors</h2>
+    <ul class="color-list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
     </ul>
+
+    <!-- Task 2: Squares of numbers 1 - 10 -->
+    <h2>Squares of numbers 1 - 10</h2>
+    <p>1<sup>2</sup> = 1</p>
+    <p>2<sup>2</sup> = 4</p>
+    <p>3<sup>2</sup> = 9</p>
+    <p>4<sup>2</sup> = 16</p>
+    <p>5<sup>2</sup> = 25</p>
+    <p>6<sup>2</sup> = 36</p>
+    <p>7<sup>2</sup> = 49</p>
+    <p>8<sup>2</sup> = 64</p>
+    <p>9<sup>2</sup> = 81</p>
+    <p>10<sup>2</sup> = 100</p>
+
+    <!-- Task 3: Ordered and Unordered lists -->
+    <h2>Ordered and Unordered Lists</h2>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+
+    <!-- Task 4: Addresses -->
+    <h2>Addresses</h2>
+    <div style="float: left; width: 30%;">
+        <p>Dilbert H.<br>1234 Anim Street<br>P.O. Box 22222</p>
+    </div>
+    <div style="float: right; width: 30%;">
+        <p>Someone A. Person<br>5555 Street Avenue<br>Metropolitan, Metropolis 11111</p>
+    </div>
+    <div style="clear: both;"></div>
+
+    <!-- Task 5: Jump links -->
+    <h2>Jump Links</h2>
+    <p><a href="#bottom">Jump to Bottom</a></p>
+    <div style="height: 500px;"></div>
+    <p id="bottom"><a href="#top">Jump to Top</a></p>
+
+    <!-- Task 6: External links -->
+    <h2>External Links</h2>
+    <p><a href="https://www.google.com" target="_blank">Google</a></p>
+    <p><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
+    <p><a href="https://www.youtube.com" target="_blank">YouTube</a></p>
+    <p><a href="https://www.twitter.com" target="_blank">Twitter</a></p>
+
+    <!-- Task 7: Images with titles -->
+    <h2>Images with Titles</h2>
+    <p><img src="image1.jpg" alt="Image 1" title="Title 1"></p>
+    <p><img src="image2.jpg" alt="Image 2" title="Title 2"></p>
+    <p><img src="image3.jpg" alt="Image 3" title="Title 3"></p>
+    <p><img src="image4.jpg" alt="Image 4" title="Title 4"></p>
+    <p><img src="image5.jpg" alt="Image 5" title="Title 5"></p>
+
+    <!-- Task 8: Image with border, width, and height -->
+    <h2>Image with Border</h2>
+    <img src="image_with_border.jpg" alt="Image with Border" width="200" height="200" style="border: 2px solid black;">
+
+    <!-- Task 9: Image that links to itself -->
+    <h2>Image that Links to Itself</h2>
+    <a href="image_self.jpg"><img src="image_self.jpg" alt="Image that Links to Itself"></a>
+
+    <!-- Task 10: Image that links to a search engine -->
+    <h2>Image that Links to Search Engine</h2>
+    <a href="https://www.google.com" target="_blank"><img src="image_search.jpg" alt="Image that Links to Search Engine"></a>
+
+    <!-- Task 11: Stock Prices Table -->
+    <h2>My tech stock picks</h2>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SYMBOL</th>
+            <th>CURRENT</th>
+            <th>52WK HI</th>
+            <th>52WK LO</th>
+            <th>P/E RATIO</th>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>MSFT</td>
+            <td>86-3/8</td>
+            <td>119-15/16</td>
+            <td>75-1/2</td>
+            <td>56.09</td>
+        </tr>
+        <tr>
+            <td>Cisco Systems</td>
+            <td>CSCO</td>
+            <td>72-1/8</td>
+            <td>82</td>
+            <td>24-13/16</td>
+            <td>400.69</td>
+        </tr>
+        <tr>
+            <td>America Online</td>
+            <td>AOL</td>
+            <td>63</td>
+            <td>95-13/16</td>
+            <td>38-15/32</td>
+            <td>350.00</td>
+        </tr>
+        <tr>
+            <td>Qwest Communications</td>
+            <td>Q</td>
+            <td>44-7/16</td>
+            <td>66</td>
+            <td>25-3/4</td>
+            <td>74.06</td>
+        </tr>
+        <tr>
+            <td>Dell Computers</td>
+            <td>DELL</td>
+            <td>53-59/64</td>
+            <td>59-11/16</td>
+            <td>31-3/8</td>
+            <td>86.97</td>
+        </tr>
+    </table>
+
 </body>
 </html>
