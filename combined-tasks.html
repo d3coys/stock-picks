@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Combined Tasks 5-10</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .link { margin: 20px 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        th:first-child, td:first-child { text-align: left; }
+    </style>
 </head>
 <body>
     <h1>Combined Tasks 5-10</h1>
 
     <h2>Jump to Bottom and Top</h2>
-    <a href="#bottom">Go to Bottom</a>
+    <a href="#bottom" class="link">Go to Bottom</a>
     <div style="height: 1000px;"></div>
-    <a id="bottom" href="#top">Go to Top</a>
+    <a id="bottom" href="#top" class="link">Go to Top</a>
 
     <h2>Links to Different Pages</h2>
     <ul>
@@ -41,7 +49,59 @@
 
     <h2>Image Linking to a Search Engine</h2>
     <a href="https://www.google.com" target="_blank">
-        <img src="image8.jpg" alt="Search Engine Link" width="200" height="200">
+        <img src="CS2205Unit03WAImg01.jpg" alt="Search Engine Link" width="200" height="200">
     </a>
+
+    <h2>My Tech Stock Picks</h2>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SYMBOL</th>
+            <th>CURRENT</th>
+            <th>52WK HI</th>
+            <th>52WK LO</th>
+            <th>P/E RATIO</th>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>MSFT</td>
+            <td>86-3/8</td>
+            <td>119-15/16</td>
+            <td>75-1/2</td>
+            <td>56.09</td>
+        </tr>
+        <tr>
+            <td>Cisco Systems</td>
+            <td>CSCO</td>
+            <td>72-1/8</td>
+            <td>82</td>
+            <td>24-13/16</td>
+            <td>400.69</td>
+        </tr>
+        <tr>
+            <td>America Online</td>
+            <td>AOL</td>
+            <td>63</td>
+            <td>95-13/16</td>
+            <td>38-15/32</td>
+            <td>350.00</td>
+        </tr>
+        <tr>
+            <td>Qwest Communications</td>
+            <td>Q</td>
+            <td>44-7/16</td>
+            <td>66</td>
+            <td>25-3/4</td>
+            <td>74.06</td>
+        </tr>
+        <tr>
+            <td>Dell Computers</td>
+            <td>DELL</td>
+            <td>53-59/64</td>
+            <td>59-11/16</td>
+            <td>31-3/8</td>
+            <td>86.97</td>
+        </tr>
+    </table>
 </body>
 </html>
